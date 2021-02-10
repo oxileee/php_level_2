@@ -1,8 +1,5 @@
 <?php
 
-class sql(){
-
-}
 function Sql_connect()
 {
     return mysqli_connect("localhost", "root", "", "test.local");
